@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="637.0" prefWidth="947.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ap_project.HelloController">
+   <children>
+      <ImageView fitHeight="661.0" fitWidth="955.0" layoutX="-4.0" layoutY="-3.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bg.jpg" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.22" />
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="-9.0" layoutY="-8.0" opacity="0.85" />
+      <Text fill="#ff4848" layoutX="244.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GAME OVER" textAlignment="CENTER" underline="true" wrappingWidth="458.31689453125">
+         <font>
+            <Font name="System Bold" size="64.0" />
+         </font>
+      </Text>
+      <Button layoutX="421.0" layoutY="403.0" mnemonicParsing="false" onAction="#onExitMenuButtonClick" prefHeight="52.0" prefWidth="106.0" text="EXIT">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
