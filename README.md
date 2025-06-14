@@ -50,10 +50,6 @@ If you would like to contribute to the development of this game, follow these st
    - Revive (only if cherries >= 3)
    - Main Menu
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Acknowledgments
 
 Inspired by the original Stick Hero game by Ketchapp. Enjoy the game and happy coding!
